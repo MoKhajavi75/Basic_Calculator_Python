@@ -2,20 +2,7 @@
 #2017-03-21
 #********************
 
-#Functions
-def sum(x, y):
-    return x + y
-
-def sub(x, y):
-    return x - y
-
-def multi(x, y):
-    return x * y
-
-def dev(x, y):
-    return x / y
-#End Of Functions
-
+import functions
 
 print("The Basic Calculator")
 print("**********\n")
@@ -35,22 +22,19 @@ print()
 c = int(input("Choose: "))
 
 if c is 1:
-    print(sum(x, y))
+    print(functions.sum(x, y))
 
 elif c is 2:
-    print(sub(x, y))
+    print(functions.sub(x, y))
 
 elif c is 3:
-    print(multi(x, y))
+    print(functions.multi(x, y))
 
 elif c is 4:
-    print(dev(x, y))
+    print(functions.dev(x, y))
 
 else:
     print("Invalid input!")
 
 
 print(":)")
-
-
-
