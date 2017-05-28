@@ -15,6 +15,7 @@ app.MainLoop()
 import functions
 
 
+#ssdsdfsjdfabsdlfk;hajsdfhasdfha
 
 class MyFrame(wx.Frame):
 
