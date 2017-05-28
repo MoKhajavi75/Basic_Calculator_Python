@@ -17,6 +17,9 @@ import functions
 
 #ssdsdfsjdfabsdlfk;hajsdfhasdfha
 
+
+#jadshasdjhadsk;jh
+
 class MyFrame(wx.Frame):
 
     """ We simply derive a new class of Frame. """
