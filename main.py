@@ -1,4 +1,4 @@
-#Basic Calculator by Morpheus
+#Basic Calculator by MohamadKh75
 #2017-03-21
 #********************
 
