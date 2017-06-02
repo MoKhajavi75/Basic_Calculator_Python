@@ -1,8 +1,9 @@
-#Basic Calculator by MohamadKh75
-#2017-03-21
-#********************
+# Basic Calculator by MohamadKh75
+# 2017-03-21
+# ********************
 
-import functions
+import cmd_functions
+
 
 print("The Basic Calculator")
 print("**********\n")
@@ -22,16 +23,16 @@ print()
 c = int(input("Choose: "))
 
 if c is 1:
-    print(functions.sum(x, y))
+    print(cmd_functions.sum_numbers(x, y))
 
 elif c is 2:
-    print(functions.sub(x, y))
+    print(cmd_functions.sub_numbers(x, y))
 
 elif c is 3:
-    print(functions.multi(x, y))
+    print(cmd_functions.multi_numbers(x, y))
 
 elif c is 4:
-    print(functions.dev(x, y))
+    print(cmd_functions.dev_numbers(x, y))
 
 else:
     print("Invalid input!")
